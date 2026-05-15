@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 
 app=Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI']="sqlite:///c:/Users/ulhas/userresource.db"
+app.config['SQLALCHEMY_DATABASE_URI']="sqlite:///userresource.db"
 CORS(app)
 api=Api(app)
 db=SQLAlchemy(app)
