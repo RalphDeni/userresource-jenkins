@@ -5,4 +5,4 @@
     RUN pip install -r requirements.txt
     RUN apt-get update && apt-get  install -y sqlite3
     EXPOSE 5000
-    CMD ["python","userresource.py"]   
+    CMD ["python","userresource.py"]
